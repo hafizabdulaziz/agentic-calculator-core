@@ -208,3 +208,10 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Active Technologies
+- Python 3.13.14+ + Standard Library (`math`), `pytest` (001-basic-calculator-ops)
+- N/A (001-basic-calculator-ops)
+
+## Recent Changes
+- 001-basic-calculator-ops: Added Python 3.13.14+ + Standard Library (`math`), `pytest`
