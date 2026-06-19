@@ -1,4 +1,4 @@
-# 🚀 Agentic Calculator Core
+﻿# ðŸš€ Agentic Calculator Core
 
 [![Python](https://img.shields.io/badge/Python-3.13%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -11,7 +11,7 @@ Unlike standard calculators, this engine is designed as a **Deterministic Tool**
 
 ---
 
-## 🎯 The "AI-Native" Problem
+## ðŸŽ¯ The "AI-Native" Problem
 LLMs are notoriously unreliable at mathematics because they predict the *next token* rather than executing *logic*. In a production autonomous system, a single math error can lead to catastrophic failure in downstream tasks.
 
 ### The Solution: Deterministic Tooling
@@ -22,7 +22,7 @@ LLMs are notoriously unreliable at mathematics because they predict the *next to
 
 ---
 
-## 🏗 Technical Architecture
+## ðŸ— Technical Architecture
 
 ### Design Principles
 1. **Deterministic Execution:** No stochastic elements in the computation path.
@@ -33,19 +33,19 @@ LLMs are notoriously unreliable at mathematics because they predict the *next to
 ### Component Map
 ```text
 agentic-calculator-core/
-├── src/
-│   └── calculator_project/
-│       ├── engine.py       # Deterministic math logic & error handling
-│       └── schema.py       # Type definitions for MCP tool-use
-├── tests/
-│   └── unit/               # TDD suite ensuring mathematical correctness
-├── main.py                 # MCP Server entry point & CLI
-└── pyproject.toml          # Modern UV-based dependency management
+â”œâ”€â”€ src/
+â”‚   â””â”€â”€ calculator_project/
+â”‚       â”œâ”€â”€ engine.py       # Deterministic math logic & error handling
+â”‚       â””â”€â”€ schema.py       # Type definitions for MCP tool-use
+â”œâ”€â”€ tests/
+â”‚   â””â”€â”€ unit/               # TDD suite ensuring mathematical correctness
+â”œâ”€â”€ main.py                 # MCP Server entry point & CLI
+â””â”€â”€ pyproject.toml          # Modern UV-based dependency management
 ```
 
 ---
 
-## 🛠 Tech Stack
+## ðŸ›  Tech Stack
 - **Runtime:** Python 3.13.14+
 - **Management:** [UV](https://github.com/astral-sh/uv) (High-performance package management)
 - **Validation:** Pytest (Test-Driven Development)
@@ -53,7 +53,7 @@ agentic-calculator-core/
 
 ---
 
-## 🚀 Deployment & Integration
+## ðŸš€ Deployment & Integration
 
 ### 1. Local Setup
 ```bash
@@ -78,13 +78,14 @@ Add the following to your `claude_desktop_config.json`:
 
 ---
 
-## 🗺 Roadmap
+## ðŸ—º Roadmap
 - [ ] **Advanced Calculus Support:** Integrating `sympy` for symbolic mathematics.
 - [ ] **Unit Conversion Layer:** Adding deterministic physical unit conversions.
 - [ ] **Financial Primitives:** Specialized tools for precision currency and interest calculations.
 
 ---
 
-## 🌟 Author
+## ðŸŒŸ Author
 **Hafiz Abdul Aziz** | AI-Native Engineer
-[GitHub](https://github.com/hafizabdulaziz) | [LinkedIn](https://linkedin.com/in/hafizabdulaziz)
+[GitHub](https://github.com/hafizabdulaziz) | [LinkedIn](https://linkedin.com/in/hafizabdulaziz33)
+
